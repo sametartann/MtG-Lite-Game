@@ -11,7 +11,7 @@ protected:
     int manaCost;
     std::string color;
     bool isDiscarded;
-    std::string typeOfCard; // !!!!!!!!!! land sorcery enchanment creature class definitionlarda constructora ekstra type yolla
+    std::string typeOfCard;
 public:
     // yeni typeOfCard
     Card(std::string nm, int mnCt, std::string clr, std::string typeOfCard) : name(nm), manaCost(mnCt),
@@ -177,7 +177,7 @@ protected:
     int baseHp;
     std::vector<Card> inplayCards;
     std::vector<Card> handPile;
-    std::vector<Card> deckPile; //Her oyuncunun librarysi
+    std::vector<Card> deckPile; //library for every player
     std::vector<Card> playableCards;
     std::vector<Card> disCards;
     int landPower; // new
@@ -761,13 +761,13 @@ public:
                 c1 = player1.getInplayCards()[i];
 
                 c1.setHp(c1.getHp()-2);
-                // SADECE 1 TURN ICIN OLCAK
+                
             }
             if (player2.getInplayCards()[i].getTypeofCard() == "Creature"){
                 c2 = player2.getInplayCards()[i];
 
                 c2.setHp(c2.getHp()-2);
-                // SADECE 1 TURN ICIN OLCAK
+                
             }
         }
     }
