@@ -8,9 +8,9 @@ In this project, designed and implemented a C++ program that simulates a simplif
 
 To run this program perfectly, please follow the descriptions.
 
--When the program asks you to play a card, if you would like to, then write "yes". Otherwise, write "no".
--When the program asks to enter a card name, write the correct name like "WhiteKnight".
--When the program asks the option for attack; if you would like to, write "yes" and select the name of the card you will attack with. Otherwise, write "no" when it asks for.
+- When the program asks you to play a card, if you would like to, then write "yes". Otherwise, write "no".
+- When the program asks to enter a card name, write the correct name like "WhiteKnight".
+- When the program asks the option for attack; if you would like to, write "yes" and select the name of the card you will attack with. Otherwise, write "no" when it asks for.
 
 After these, the program will ask for defense. If you do not select to defend, write "no". Otherwise, write "yes" and select both the card for defense and the enemy's attacking card.
 
